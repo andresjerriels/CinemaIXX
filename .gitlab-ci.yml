@@ -1,0 +1,8 @@
+image: python:3.8
+
+before_script:
+  - pip install pytest
+
+test:
+  script:
+    - pytest -v src/test/test.py
